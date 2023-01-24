@@ -101,4 +101,15 @@ ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
 $ git push origin master
 
 
-#PASSOS COMPLEMENTARES 4 - Clonar projetos
+#PASSOS COMPLEMENTARES 4 - Clonar projetos e atualizar projetos na maquina com o que esta mais atualizado no repositorio(bitbucket ou github)
+
+1 - criar uma pasta e clonar
+
+ROBERTO@MAQUINA MINGW64 /c/BURGOS/projeto-copiado (master)
+$ git clone https://burgostecnologia@bitbucket.org/burgostecnologia/starter-java-spring-boot-vue.git
+
+2 - caso queira atualizar o conteudo local com o que pode estar mais atualizado no repositorio da nuvem
+ROBERTO@MAQUINA MINGW64 /c/BURGOS/projeto-copiado (master)
+$ git pull
+
+*precisa fechar e abrir o vscode para atualizar
