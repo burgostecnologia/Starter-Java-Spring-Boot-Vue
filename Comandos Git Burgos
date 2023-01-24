@@ -114,4 +114,23 @@ $ git pull
 
 *precisa fechar e abrir o vscode para atualizar
 
+
+#PASSOS COMPLEMENTARES 5 - Trabalhando em projeto de outros com fazendo Fork - enviando pull request
+
+1- Diferente do Clone se fizer o fork de um projeto pelo bitbucket ou github o projeto vai direto para o seu repositorio identificando o dono
+
+2 - se fizer o commit altera no seu repositorio (bitbucket/ github) mas nao do dono
+
+3 -  vc pode enviar um pull request ("Avisando se o dono quer fazer o pull para maquina dele aceitando essa sua melhoria")
+   -> Contribute -> Open Pull request ->  colocar comentario -> Create pull request
+
+
+#PASSOS COMPLEMENTARES 6 - Recebendo pull request
+
+1 - no meu epositorio (bitbucket/ github) olhar link Pull requestes (alteracao de pessoas que estao enviando melhorias)
+
+2 - Se quiser -> Clicar em merge pull request
+
+3 - Se nao quiser colocar msg e clicar no ->  Close pull request
+
 FIM
