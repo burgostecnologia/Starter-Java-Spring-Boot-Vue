@@ -63,20 +63,42 @@ ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
 $ git push -u origin master
 
 
-#PASSOS COMPLEMENTARES 1
+#PASSOS COMPLEMENTARES 1 - criar e mudar branchs
 
 Criar uma branch local e mudar para ela (Local)
 
 ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
-$ git checkout -b "feature-nova-msg"
+$ git checkout -b feature-nova-msg
 
 * Checkout sai da branch atual e depois e criada a outra branch
+* Caso anteriormente ja tenha criado uma nova branch para mudar de uma para não precisa do "-b"
 
 ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (feature-nova-msg)
 
-#PASSOS COMPLEMENTARES 2
+#PASSOS COMPLEMENTARES 2 - remover um remote
 
 Caso necessário remover um remote
 
 ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
 $ git remote remove origin
+
+
+#PASSOS COMPLEMENTARES 3 - SE PRECISAR FAZER MERGE (faz local a junção)
+
+1 - Mudar a branch da alteração para a Master
+
+ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (feature-nova-msg)
+$ git checkout master
+
+2 - comando de junção 
+
+ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
+$ git merge feature-nova-msg
+
+3 - push
+
+ROBERTO@MAQUINA MINGW64 /c/BURGOS/starter-java-spring-boot-vue (master)
+$ git push origin master
+
+
+#PASSOS COMPLEMENTARES 4 - Clonar projetos
